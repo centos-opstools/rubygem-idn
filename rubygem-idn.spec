@@ -4,7 +4,7 @@
 Summary: Ruby Bindings for the GNU LibIDN library
 Name: rubygem-%{gem_name}
 Version: 0.0.2
-Release: 9%{?dist}
+Release: 10%{?dist}
 Group: Development/Languages
 
 # ASL license for ext/idn.c, ext/idn.h, ext/punycode.c and ext/stringprep.c
@@ -98,6 +98,9 @@ popd
 %{gem_docdir}
 
 %changelog
+* Mon Mar 19 2018 Matthias Runge <mrunge@redhat.com> - 0.0.2-10
+- bump NVR to add additional arches
+
 * Thu Mar 07 2013 Josef Stribny <jstribny@redhat.com> - 0.0.2-9
 - Rebuild for https://fedoraproject.org/wiki/Features/Ruby_2.0.0
 
